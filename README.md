@@ -4,6 +4,8 @@ Easily tab out of Cloze deletions (e.g., `{{c1::text}}`) within Anki's editor.
 
 This add-on simplifies navigation while editing Cloze cards by enabling the Tab key to move the cursor outside of closing double curly braces (`}}`). With this feature, if your cursor is directly before a `}}`, pressing Tab will move the cursor to the position after the closing braces, streamlining the card creation process.
 
+![](https://github.com/kellenvu/anki-tabout/blob/main/demo.gif)
+
 ## Features
 
 - **Tab Out of Cloze Deletions**: Automatically moves the cursor to the position after the closing `}}` when pressing Tab if positioned just before `}}`.
