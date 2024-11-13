@@ -17,7 +17,9 @@ Streamline your Anki workflow by enabling the Tab key to jump outside Cloze dele
 1. Restart Anki to activate.
 
 ## Usage
+
 Place the cursor right before `}}` in a Cloze deletion and press **Tab** to jump outside the braces. Otherwise, Tab follows Anki’s default behavior.
 
 ## License
+
 GNU AGPL, version 3 or later.
