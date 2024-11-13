@@ -1,39 +1,23 @@
 # Anki Cloze TabOut Add-on
 
-Easily tab out of Cloze deletions (e.g., `{{c1::text}}`) within Anki's editor.
-
-This add-on simplifies navigation while editing Cloze cards by enabling the Tab key to move the cursor outside of closing double curly braces (`}}`). With this feature, if your cursor is directly before a `}}`, pressing Tab will move the cursor to the position after the closing braces, streamlining the card creation process.
+Streamline your Anki workflow by enabling the Tab key to jump outside Cloze deletions (`{{c1::text}}`). When your cursor is positioned directly before a closing `}}`, pressing Tab moves it to just after the braces.
 
 ![](https://github.com/kellenvu/anki-tabout/blob/main/demo.gif)
 
 ## Features
 
-- **Tab Out of Cloze Deletions**: Automatically moves the cursor to the position after the closing `}}` when pressing Tab if positioned just before `}}`.
+- **Tab Out of Clozes**: Moves the cursor to the position after `}}` if immediately to the right of the cursor.
 
-- **Default Behavior**: If the cursor is not before `}}`, the default Tab behavior (moving to the next text field) is preserved.
+- **Default Behavior**: If not next to `}}`, Tab moves to the next field as usual.
 
 ## Installation
 
 1. Download and install the add-on.
 
-2. Restart Anki to activate the TabOut functionality.
+1. Restart Anki to activate.
 
 ## Usage
+Place the cursor right before `}}` in a Cloze deletion and press **Tab** to jump outside the braces. Otherwise, Tab follows Anki’s default behavior.
 
-The add-on is enabled by default. To use it:
-
-1. Position the cursor within a Cloze deletion, just before the closing `}}`.
-
-2. Press the **Tab** key to move the cursor to the position immediately after `}}`.
-
-If the cursor is not directly before a `}}`, pressing **Tab** will move to the next editable field, following Anki's default behavior.
-
-## Notes
-
-- This add-on is currently designed specifically for Cloze deletions and supports tabbing out of `{{c1::...}}`-style syntax in Anki.
-  
 ## License
-
-This add-on is licensed under the GNU AGPL, version 3 or later.
-
-Enhance your Anki workflow by easily tabbing out of Cloze deletions and focusing on what matters: creating effective flashcards!
+GNU AGPL, version 3 or later.
