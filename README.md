@@ -24,7 +24,7 @@ Place the cursor right before `}}` in a Cloze deletion and press **Tab** to jump
 
 1. Copy the directory located at `src/tabout` to your clipboard.
 
-1. In Anki, go to `Tools > Add-ons > View Files`. Past the directory in the place where the add-ons are.
+1. In Anki, go to `Tools > Add-ons > View Files`. Paste the directory in the place where the add-ons are.
 
 1. Restart Anki.
 
